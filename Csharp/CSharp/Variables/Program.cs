@@ -20,10 +20,11 @@ namespace Variables
            
         }
     }
-   
 
+    // 전역변수 : 외부 클래스/ 객체등에서 (지역상관없이) 접근할수 있는 변수
     public class Human
     {
+        // 멤버변수 : 클래스 / 구조체 등을 구성하는 멤버로서 선언된 변수
         int age; // 4 byte 실수형
         double weight; // 8 byte 실수형 
         bool isReseting; // 1 byte 논리형
