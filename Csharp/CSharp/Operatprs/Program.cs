@@ -164,7 +164,7 @@ namespace UnityLesson_CSharp_Operator
             // xor result                 == ...00001000 == 8
 
             // not
-            Console.WriteLine(a ^ b);
+            Console.WriteLine(~a);
             // a == 14 == 2^3 + 2^2 + 2^1 == ...00001110
             // not resurt                 == 11111111111111111111111110001;
             // 2의 보수 : 이진법에서 모든자리수를 반전하고 + 1

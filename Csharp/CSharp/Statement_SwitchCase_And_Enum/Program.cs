@@ -7,13 +7,13 @@ namespace Statement_SwitchCase_And_Enum
     // 기본적으로 System.int32 자료형
     enum PlayerStates
     {
-        Idle,
-        Move,
-        Jump,
-        Dash,
-        Attack,
-        Hurt,
-        Die
+        Idle,   // == ...00000000
+        Move,   // == ...00000001
+        Jump,   // == ...00000010
+        Dash,   // == ...00000001
+        Attack, // == ...00000100
+        Hurt,   // == ...00000101
+        Die     // == ...00000110
     }
 
 
@@ -42,6 +42,7 @@ namespace Statement_SwitchCase_And_Enum
 
 
             Player player = new Player();
+            player.state = PlayerStates.Attack;
 
             Console.WriteLine(player.targetLayer);
 
@@ -64,13 +65,13 @@ namespace Statement_SwitchCase_And_Enum
                         Console.WriteLine("플레이어는 공격하고있다");
 
                         if ((other.layer & player.targetLayer) == other.layer)
-                        Console.WriteLine($"{player} 는 {enemy}를 공격한다");
+                        Console.WriteLine($"{player} 는 {other}를 공격한다");
                         
-                        if ((other.layer & player.targetLayer) == other.layer)
+                        if ((other.layer & player.targetLayer) == enemy.layer)
                         Console.WriteLine($"{player} 는 {enemy}를 공격한다");
 
-                        if ((other.layer & player.targetLayer) == other.layer)
-                        Console.WriteLine($"{player} 는 {enemy}를 공격한다");
+                        if ((other.layer & player.targetLayer) == obstacle.layer)
+                        Console.WriteLine($"{player} 는 {obstacle}를 공격한다");
 
                         if ((other.layer & player.targetLayer) == other.layer)
                         Console.WriteLine($"{player} 는 {enemy}를 공격한다");
