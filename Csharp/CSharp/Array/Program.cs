@@ -15,8 +15,6 @@ namespace Array
             // arrInt2 는 int 형 배열 참조 변수
             // arrInt 는 주소만 알고있다
 
-            int - wjdtn 
-
             int[] arrInt2 = {1, 2, 3};
             float[] arrFloat = new float[4];
 
