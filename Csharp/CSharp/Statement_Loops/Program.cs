@@ -1,9 +1,19 @@
-﻿using System;
+﻿// using : 
+// System : 
+using System;
+
+// namespace : 
 
 namespace Statement_Loops
 {
+
+    // internal : 
+    // class : 
     internal class Program
     {
+
+        // static :" 
+        // void : 
         static void Main(string[] args)
         {
             //while (조건)
