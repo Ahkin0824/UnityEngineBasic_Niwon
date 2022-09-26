@@ -1,8 +1,32 @@
-﻿using System;
+﻿// using
+// C#의 키워드 
+// using 말그대로 나는 ~를 사용하겠다
+
+// System 
+// C# 코드가 기본적으로 필요로 하는 클래스를 담고있는, 즉 namespace안에있는 클래스를 사용하겠다고 컴파일러에게 알리는 역할을 함.
+using System;
+// 키워드 : namespace 
+// 클래스 간의 멤버 이름 충돌을 방지함.
 namespace UnityLesson_CSharp_StaticExample
 {
+    // class (아직 잘 모른다.)
+    // class는 제목과 비슷하다
+    // 즉 이 선언된 변수(필드)들은 class 아래에서 논다
+    // 즉 클래스는 설계도이다
+    // 실체(인스턴스)가 아니다
     class Program
     {
+        // 키워드 : static (아직 뭔지 잘 모르겠다)
+        // static(정적) 은 dynamic(동적) 과 반대되는 개념의 키워드로  
+        // 인스턴스화 시킬 수 없다 라는것을 의미함
+        // 즉 하나만 존재할 수 있다
+
+        // void 
+        // 반환값의 타입이 없다.(이게 무슨뜻인지 아직 잘 모른다.)
+        // 함수는 기본적으로 
+        // 입력 -> 기능(이득) -> 출력 의 기본 형식을 지니는데,  
+        // 함수에서 입력을 바탕으로한 기능만 실행하고 출력을 아무것도 하지 않는경우 
+        // void 라는 반환 타입을 사용한다.  
         static void Main(string[] args)
         {
             Orc orc1 = new Orc();
