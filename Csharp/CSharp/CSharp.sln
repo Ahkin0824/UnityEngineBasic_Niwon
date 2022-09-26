@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array", "Array\Array.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Statement_Loops", "Statement_Loops\Statement_Loops.csproj", "{8A2BA4AB-A935-4861-8268-B120F0C80D11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example02_Array2D", "Example02_Array2D\Example02_Array2D.csproj", "{43E5CA50-AD21-4B14-A972-3BB60BD97EC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example02_Array2D", "Example02_Array2D\Example02_Array2D.csproj", "{43E5CA50-AD21-4B14-A972-3BB60BD97EC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structure", "Structure\Structure.csproj", "{E81AED25-7358-4EE6-AC31-4ABE5F4E7D6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{43E5CA50-AD21-4B14-A972-3BB60BD97EC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43E5CA50-AD21-4B14-A972-3BB60BD97EC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43E5CA50-AD21-4B14-A972-3BB60BD97EC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E81AED25-7358-4EE6-AC31-4ABE5F4E7D6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E81AED25-7358-4EE6-AC31-4ABE5F4E7D6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E81AED25-7358-4EE6-AC31-4ABE5F4E7D6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E81AED25-7358-4EE6-AC31-4ABE5F4E7D6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
