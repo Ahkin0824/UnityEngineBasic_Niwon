@@ -44,7 +44,11 @@ namespace Structure
 
     public class Stats_Class
     {
-        public Stats Stats;
+        public int STR;
+        public int DEX;
+        public int INT;
+        public int LUK;
+
     }
 
     public struct WarriorFamily
@@ -72,7 +76,7 @@ namespace Structure
                 INT = 200,
                 DEX = 400,
                 LUK = 800
-            }
+            };
 
             Warrior warrior = new Warrior();
             // warrior.Stats 는 힙영역에 할당.

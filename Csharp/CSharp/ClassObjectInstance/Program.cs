@@ -10,8 +10,7 @@ using System;
 namespace UnityLesson_CSharp_StaticExample
 {
     // class (아직 잘 모른다.)
-    // class는 제목과 비슷하다
-    // 즉 이 선언된 변수(필드)들은 class 아래에서 논다
+    // 선언된 변수(필드)들은 class 아래에서 논다
     // 즉 클래스는 설계도이다
     // 실체(인스턴스)가 아니다
     class Program
