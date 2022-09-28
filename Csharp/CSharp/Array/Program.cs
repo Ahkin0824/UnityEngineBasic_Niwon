@@ -16,7 +16,7 @@ namespace Array
     /* 보통 우리는 클래스의 멤버 접근 권한을 제어하기 위해 
      * public, protected, private 이렇게 세가지를 많이들 쓰는데 */
 
-    //평소 사용이 드문 Internal이라는 접근제어자가 하나 더 있다.
+    // 평소 사용이 드문 Internal이라는 접근제어자가 하나 더 있다.
 
     // Internal은 다른 접근제한자와 달리
     // 'Internal의 접근 권한을 가진 멤버는 동일 어셈블리 내에서만' 사용할 수 있다

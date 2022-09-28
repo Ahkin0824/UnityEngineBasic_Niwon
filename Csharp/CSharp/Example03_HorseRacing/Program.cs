@@ -18,116 +18,59 @@ While 반복문에서 Thread.Sleep(1000); 을 추가하면 1초에 한번씩 반
 
 // ??? 외계어인가
 using System;
-using System.Diagnostics;
-using System.Threading;
-
-Random rand = new Random();
 
 namespace Example03_HorseRacing
 {
+    public class Horse
+    {
+        public string Name;
+        public float distance;
+        public int grade;
+        public bool IsFinished;
+
+        public void Run(float distance)
+        {
+            position += distance;
+        }
+
+    }
+    
+
     internal class Program
     {
+        const int TOTAL_HOLSES_NUMBER = 5;
+        public Horse horses = new Horse(TOTAL_HOLSES_NUMBER);
+
         public void Main(string[] args)
         {
-            Horse horse1 = new Horse();
-            horse1.Name = "1번말";
-            horse1.distance = 0;
-
-            while (horse1.distance < 200 )
+            for (int i = 0; i < TOTAL_HOLSES_NUMBER;  i++)
             {
-                horse1.Run();
-                if (horse1.distance < 200)
-                {
-                    horse1.finished();
-                    horse1.grade = ++horse1.grade;
-                    break;
-                    Console.WriteLine($"1번말이 {grade}번째로 들어왔습니다. ");
-                }
-            }
-
-            Horse horse2 = new Horse();
-            horse2.Name = "2번말";
-            horse2.distance = 0;
-            while (horse2.distance < 200)
-            {
-                horse2.Run();
-                if (horse2.distance < 200)
-                {
-                    horse2.finished();
-                    horse2.grade = ++horse2.grade;
-                    break;
-                }
-            }
-
-            Horse horse3 = new Horse();
-            horse3.Name = "3번말";
-            horse3.distance = 0;
-            while (horse3.distance < 200)
-            {
-                horse3.Run();
-                if (horse3.distance < 200)
-                {
-                    horse3.finished();
-                    horse3.grade = ++horse3.grade;
-                    break;
-                }
-            }
-
-            Horse horse4 = new Horse();
-            horse4.Name = "4번말";
-            horse4.distance = 0;
-            while (horse4.distance < 200)
-            {
-                horse4.Run();
-                if (horse4.distance < 200)
-                {
-                    horse4.finished();
-                    horse4.grade = ++horse4.grade;
-                    break;
-                }
-            }
-
-            Horse horse5 = new Horse();
-            horse5.Name = "5번말";
-            horse5.distance = 0;
-            while (horse5.distance < 200)
-            {
-                horse5.Run();
-                if (horse5.distance < 200)
-                {
-                    horse5.finished();
-                    horse5.grade = ++ horse5.grade;
-                    break;
-                }
-            }
+                horses[i];
+            };
 
         }
     }
 }
-
-
-
-
-
-public class Horse
-{
-    public string Name;
-    public float distance;
-    public int grade;
-    public void finished()
-    {
-
-    }
-
-    public void Run()
-    {
-        distance += Random(10, 20);
-        Thread.Sleep(1000);
-    }
-
-    public float Random(int v1, int v2)
-    {
-        throw new NotImplementedException();
-    }
-
-}
+/* dk dksrud enrhdhktj tndjq shgcuTek
+ * 
+ * gk tlqkf wlsWK doal
+ * 
+ * tlqkf whssk djfuqsp wlsWk ahtgoajrrpTdj
+ * 
+ * ro tlqkf wlsWK sjan djfuqek
+ * 
+ * ajflRowlfRJrkxdk
+ * 
+ * tlqkf wktkfakfuqsp
+ * 
+ * wlqdprkrhtlvek
+ * 
+ * rmsid dhwlakfRjf
+ * 
+ * dksrud tlqkf codrudhfRjf
+ * 
+ * qhrh emfdms ahemsrjtdmf dmltlagofk
+ * 
+ * sjrk wpdlf wkfskwl dksgdkTek rmrjs vudtod qusgkwl dksgsms tktlfdlek
+ * 
+ * dnfl rm snrneh wkfskwl dksgdkTekdddfffd
